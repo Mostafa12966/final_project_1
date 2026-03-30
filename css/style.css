@@ -52,6 +52,14 @@
   --scroll-top-bg: #4dabf7;
 }
 
+.dark-mode .bg-light {
+  background-color: var(--surface-strong) !important;
+}
+
+.dark-mode .text-dark {
+  color: var(--text-color) !important;
+}
+
 * {
   margin: 0;
   padding: 0;
